@@ -80,7 +80,7 @@ const Features = () => {
                   {whatsNew ? (
                     <span>
                       <span
-                        class="spinner-border spinner-border-sm"
+                        className="spinner-border spinner-border-sm"
                         aria-hidden="true"
                       ></span>
                       <span role="status"> Loading...</span>
@@ -102,7 +102,7 @@ const Features = () => {
             {aboutUs ? (
               <span>
                 <span
-                  class="spinner-border spinner-border-sm"
+                  className="spinner-border spinner-border-sm"
                   aria-hidden="true"
                 ></span>
                 <span role="status"> Loading...</span>
