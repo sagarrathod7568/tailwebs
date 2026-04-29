@@ -1,4 +1,20 @@
-export const cardsData = [
+// TYPES
+export interface Card {
+  id: number;
+  title: string;
+  author: string;
+  date: string;
+  image: string;
+  animation: string;
+}
+
+export interface Button {
+  id: number;
+  label: string;
+  type: "primary" | "light";
+}
+
+export const cardsData: Card[] = [
   {
     id: 1,
     title: "Roundtable on Empowering Elected Representatives and Citizens",
@@ -29,7 +45,7 @@ export const cardsData = [
   },
 ];
 
-export const buttonsData = [
+export const buttonsData: Button[] = [
   { id: 1, label: "What's New", type: "primary" },
   { id: 2, label: "Articles", type: "light" },
   { id: 3, label: "Whitepapers", type: "light" },

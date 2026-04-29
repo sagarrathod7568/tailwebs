@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import "../styles/Navbar.css";
 
 const COUNTRIES = [
@@ -12,10 +12,13 @@ const COUNTRIES = [
 const Navbar = () => {
   const [selectedCountry, setSelectedCountry] = useState(COUNTRIES[0]);
 
-  const handleCountrySelect = (country, e) => {
-    e.preventDefault();
-    setSelectedCountry(country);
-  };
+  const handleCountrySelect = (
+  country: string,
+  e: React.MouseEvent<HTMLAnchorElement>
+) => {
+  e.preventDefault();
+  setSelectedCountry(country);
+};
 
   return (
     <nav className="container-fluid position-sticky top-0 z-1 px-0">
