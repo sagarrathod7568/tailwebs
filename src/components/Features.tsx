@@ -3,6 +3,7 @@ import "aos/dist/aos.css";
 import { useEffect, useState } from "react";
 import "../styles/Features.css";
 import { cardsData, buttonsData } from "../assets/cardData";
+import type { Card, Button } from "../assets/cardData";
 
 const Features = () => {
   useEffect(() => {
@@ -41,7 +42,7 @@ const Features = () => {
             Latest at <span className="fw-bold text-warning">eGov</span>
           </h1>
           <div className="d-flex flex-wrap gap-2">
-            {buttonsData.map((btn) => (
+            {buttonsData.map((btn: Button) => (
               <button
                 key={btn.id}
                 className={`rounded-pill border btn btn-${btn.type}`}
@@ -56,7 +57,7 @@ const Features = () => {
       <section className="container pb-5 mb-5">
         <div className="d-flex flex-column flex-lg-row justify-content-center gap-4 gap-lg-5 fw-light mx-5">
           <div className="d-flex flex-column flex-lg-row justify-content-center gap-4 gap-lg-5 fw-light">
-            {cardsData.map((card) => (
+            {cardsData.map((card: Card) => (
               <div
                 key={card.id}
                 data-aos={card.animation}
