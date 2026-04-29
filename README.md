@@ -40,6 +40,7 @@ This project focuses on clean UI, responsiveness, and reusable components.
 
 ```bash
 git clone [https://github.com/your-username/tailwebs.git](https://github.com/sagarrathod7568/tailwebs.git)
+
 cd tailwebs
 
 npm install
@@ -64,5 +65,6 @@ src/
 │── App.tsx
 │── main.tsx
 
+✅ Deployed Link: https://tailwebs-phi.vercel.app/
 
 
