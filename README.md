@@ -39,7 +39,7 @@ This project focuses on clean UI, responsiveness, and reusable components.
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/your-username/tailwebs.git
+git clone [https://github.com/your-username/tailwebs.git](https://github.com/sagarrathod7568/tailwebs.git)
 cd tailwebs
 
 npm install
