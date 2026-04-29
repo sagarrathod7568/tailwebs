@@ -1,0 +1,14 @@
+body {
+  font-family: "DM Sans", sans-serif;
+}
+* {
+  font-family: "DM Sans", sans-serif;
+}
+
+button {
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}

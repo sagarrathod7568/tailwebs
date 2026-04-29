@@ -1,0 +1,44 @@
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,...");
+}
+
+.container-1 {
+  background-color: #e6f3fb;
+
+  a {
+    font-family: "DM Sans", Sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1577dd;
+  }
+
+  .container-contents {
+    .btn-group {
+      vertical-align: unset;
+    }
+  }
+
+  .dropdown-menu {
+    z-index: 9999;
+  }
+}
+
+.container-2 {
+  background-color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+  a {
+    border-bottom: 2px solid transparent;
+  }
+
+  a:hover {
+    color: #1578db;
+  }
+
+  .nav-link:active {
+    color: #1578db;
+    border-bottom: 2px solid #1578db;
+  }
+}
