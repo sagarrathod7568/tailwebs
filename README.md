@@ -43,7 +43,7 @@ git clone https://github.com/your-username/tailwebs.git
 cd tailwebs
 
 npm install
-
+npm install aos
 npm run dev
 
 App will run on: http://localhost:5173/
@@ -64,5 +64,5 @@ src/
 │── App.tsx
 │── main.tsx
 
-npm install aos
+
 
